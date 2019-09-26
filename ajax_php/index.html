@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Send HTML Form as JSON</title>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="main.js">
+</script>
+<link rel="stylesheet" href="style.css" />
+ 
+</head>
+
+<body>
+    <!-- <ul id="file"></ul> -->
+   
+<form id="myform">
+    <div class="elements">
+      <label for="name">Name :</label>
+      <input  required="required" type="text"  value="" id="name" name="name"  size="20"  />
+    </div>
+	 <div class="elements">
+      <label for="Age">Age :</label>
+      <input required="required" type="text" value="" id="age" name="age" size="20" />
+    </div>	
+    
+    <div class="submit">
+       <button type="button" id="btn">Submit</button>
+       <button type="button" onclick="loadDoc()" id="edit_btn">Edit</button>
+
+    </div>
+</form>
+</body>
+</html>
